@@ -85,8 +85,7 @@ export const FooterSection = () => {
           <h3 className="">
             &copy; {date} Designed and developed by
             <Link
-              target="_blank"
-              href="https://github.com/Rayyks"
+              href="#"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
               TEENX TECH

@@ -24,8 +24,7 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl:
-        "https://i.pinimg.com/736x/33/ec/b5/33ecb543491e50a5b215510a9b6a0131.jpg",
+      imageUrl: "/teenx.jpg",
       firstName: "Carlo",
       lastName: "Rossy",
       positions: [" Marketing & Management ", "Affiliate Program Manager"],
@@ -41,8 +40,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://i.pinimg.com/736x/d9/19/0a/d9190adcdc6b71d9e11ee63f24f79837.jpg",
+      imageUrl: "/teenx.jpg",
       firstName: "Tri",
       lastName: "Emandany",
       positions: ["Hardware Specialist", "PC Repair Expert"],
@@ -62,8 +60,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://i.pinimg.com/736x/d1/03/0d/d1030d322d6c980cd90f6f338f912cd1.jpg",
+      imageUrl: "/teenx.jpg",
       firstName: "Rayyand",
       lastName: "Kananda",
       positions: ["Web Developer", "Software Specialist"],
@@ -79,27 +76,6 @@ export const TeamSection = () => {
         {
           name: "X",
           url: "https://x.com/rayy__and",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://i.pinimg.com/736x/bc/38/9a/bc389aea0978b039f923054485688917.jpg",
-      firstName: "Nak join ?",
-      lastName: "PM ajah",
-      positions: ["Web Developer", "Web Designer"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/",
-        },
-        {
-          name: "X",
-          url: "https://x.com/",
         },
       ],
     },
@@ -128,7 +104,7 @@ export const TeamSection = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {teamList.map(
           (
             { imageUrl, firstName, lastName, positions, socialNetworks },
@@ -145,7 +121,7 @@ export const TeamSection = () => {
                     alt=""
                     width={300}
                     height={300}
-                    className="w-full aspect-square object-cover saturate-0 transition-all duration-200 ease-linear size-full group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
+                    className="w-full aspect-square object-fill saturate-0 transition-all duration-200 ease-linear size-full group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
                   />
                 </div>
                 <CardTitle className="py-6 pb-4 px-6">

@@ -27,51 +27,50 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Rafa Alamsyah",
+    userName: "Mahasiswa IT",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Gila sih TEENX TECH ini! Laptop gw yang udah lemot abis langsung kenceng lagi setelah dibenerin sama mereka. Service hardware-nya top banget, teknisinya juga ramah dan ngejelasin masalahnya dengan detail. Worth it banget deh!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Sari Dewi",
+    userName: "Content Creator",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "Butuh website portfolio buat nampung karya-karya gw, eh ternyata TEENX TECH bisa bikinin! Designnya kece abis dan responsive di semua device. Tim mereka bener-bener paham kebutuhan creator zaman now. Recommended!",
     rating: 4.8,
   },
-
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "Budi Santoso",
+    userName: "Pemilik Startup",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Company profile website yang dibikin TEENX TECH buat startup gw keren banget! Professional tapi tetep modern. Clients jadi lebih percaya sama bisnis gw. Harga juga masih masuk akal buat budget startup.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "Dina Pratiwi",
+    userName: "Freelancer Designer",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Software Adobe gw error terus, udah stress banget. Untung ada TEENX TECH yang bisa solve masalahnya dengan cepat. Sekarang software gw running smooth lagi. Pelayanannya fast response banget!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    name: "Kevin Wijaya",
+    userName: "Online Shop Owner",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "Landing page yang dibikin TEENX TECH buat toko online gw bikin conversion rate naik drastis! Design-nya clean, loading-nya cepet, dan mobile-friendly. Tim mereka ngerti banget gimana bikin website yang convert!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    name: "Putri Maharani",
+    userName: "Marketing Manager",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "PC kantor gw sering hang dan lemot, udah ganggu produktivitas banget. TEENX TECH dateng langsung upgrade RAM dan bersihin sistemnya. Sekarang PC gw kayak baru lagi! Service on-site mereka juga praktis banget.",
     rating: 4.9,
   },
 ];

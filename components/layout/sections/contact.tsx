@@ -103,7 +103,7 @@ export const ContactSection = () => {
                 <div className="font-bold">Temukan Kami</div>
               </div>
 
-              <div>Tentunya di batam, agak ke selatan bawa ombak</div>
+              <div>Batam Kota dan sekitarnya</div>
             </div>
 
             <div>
@@ -112,7 +112,7 @@ export const ContactSection = () => {
                 <div className="font-bold">Telepon Kita</div>
               </div>
 
-              <div>0888 kapan kapan kita balapan</div>
+              <div>0878-1251-4126</div>
             </div>
 
             <div>
@@ -121,13 +121,13 @@ export const ContactSection = () => {
                 <div className="font-bold">Email Kami</div>
               </div>
 
-              <div>leomirandadev@gmail.com</div>
+              <div>teamteenx@gmail.com</div>
             </div>
 
             <div>
               <div className="flex gap-2">
                 <Clock />
-                <div className="font-bold">Kunjungi Kami</div>
+                <div className="font-bold">Jam Kerja</div>
               </div>
 
               <div>
