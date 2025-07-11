@@ -8,7 +8,7 @@ import Link from "next/link";
 export const HeroSection = () => {
   const handleWhatsAppOrder = () => {
     const phoneNumber = "6287812514126"; // Nomor WhatsApp tanpa tanda hubung
-    const message = "Halo teex, saya ingin booking service";
+    const message = "Halo Teen x, saya ingin booking service";
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
